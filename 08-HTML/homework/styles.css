@@ -1,4 +1,7 @@
 h1 {color:blanchedalmond}
 img {width: 400px;}
 #thirdDiv {height: 500px; width: 500px; background-color: coral; padding: 50px; border: 4px ridge blanchedalmond;}
-#spanId {font-size: 18px; margin: 50px;}
+#spanId {font-size: 18px; margin: 50px; position: absolute; left: 350px;}
+body {background-image: url(https://img.lovepik.com/photo/40005/9061.jpg_wh860.jpg); background-size: cover; text-align: center;}
+div {margin-left: auto; margin-right: auto;}
+li {list-style: none;}
