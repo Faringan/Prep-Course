@@ -1,0 +1,20 @@
+aside {background-color: #647087; width: 30%; margin: 30px;}
+main {background-color: blanchedalmond;}
+.container {list-style-type: square;}
+.container1 {text-transform: uppercase; letter-spacing: 5px;}
+.container2 {background-color: white; box-shadow: 2px 2px 40px 1px #647087 inset; line-height: 1,5em;
+padding: 10px;}
+aside section h4:first-child {border-bottom: 2px solid white;}
+aside * {color: white;}
+#imgCircle {border-radius: 50%;}
+.allContainer {display: flex; width: 1260px;}
+dt {width: 30%; float: left; clear: left; font-weight: bolder;}
+dd {width: 60%; float: left; margin: 0; clear: right;}
+dt, dd {line-height: 1,5em; border-top: 1px solid white;}
+.clear {clear: both;}
+dt:last-of-type, dd:last-of-type {border-bottom: 1px solid white;}
+h1 {text-align: center;}
+#Name {text-align: center;}
+meter {display: block; width: 70%;}
+::-webkit-meter-optimum-value {background:none; background-color:aquamarine;}
+::-webkit-meter-bar {background:palevioletred;}
