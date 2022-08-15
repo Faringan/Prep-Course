@@ -95,7 +95,7 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  var route = true;
+ /* var route = true;
   while (route) {
     route = false;
   for (var i = 0; i < arr.length - 1; i++) {
@@ -108,7 +108,13 @@ function sortArray(arr) {
   }
  }
  return arr;
+}*/
+let creciente = function (a,b) {
+  return a.length - b.length;
 }
+return arr.sort (creciente);
+}
+
 
 
 function buscoInterseccion(arreglo1, arreglo2){
